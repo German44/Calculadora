@@ -17,31 +17,31 @@
         <section class="calculadora">
             <input  class="display" type="text" name="" id="display" readonly>
             <div class="row">
-                <input class="btn" type="button" value="7">
-                <input class="btn" type="button" value="8">
-                <input class="btn" type="button" value="9">
-                <input class="btn" type="button" value="x">
+                <input class="btn" type="button" value="7" onclick="agregar('7')">
+                <input class="btn" type="button" value="8" onclick="agregar('8')">
+                <input class="btn" type="button" value="9" onclick="agregar('9')">
+                <input class="btn" type="button" value="x" onclick="agregar('x')">
             </div>
             <div class="row">
-                <input class="btn" type="button" value="4">
-                <input class="btn" type="button" value="5">
-                <input class="btn" type="button" value="6">
-                <input class="btn" type="button" value="-">
+                <input class="btn" type="button" value="4" onclick="agregar('4')">
+                <input class="btn" type="button" value="5" onclick="agregar('5')">
+                <input class="btn" type="button" value="6" onclick="agregar('6')">
+                <input class="btn" type="button" value="-" onclick="agregar('-')">
             </div>
             <div class="row">
-                <input class="btn" type="button" value="1">
-                <input class="btn" type="button" value="2">
-                <input class="btn" type="button" value="3">
-                <input class="btn" type="button" value="+">
+                <input class="btn" type="button" value="1" onclick="agregar('1')">
+                <input class="btn" type="button" value="2" onclick="agregar('2')">
+                <input class="btn" type="button" value="3" onclick="agregar('3')">
+                <input class="btn" type="button" value="+" onclick="agregar('+')">
             </div>
             <div class="row">
-                <input class="btn" type="button" value=".">
-                <input class="btn" type="button" value="0">
-                <input class="btn" type="button" value="=">
-                <input class="btn" type="button" value="/">
+                <input class="btn" type="button" value="." onclick="agregar('.')">
+                <input class="btn" type="button" value="0" onclick="agregar('0')">
+                <input class="btn" type="button" value="=" onclick="calcular('=')">
+                <input class="btn" type="button" value="/" onclick="agregar('/')">
             </div>
             <div class="row_">
-                <input class="btn_" type="button" value="C">
+                <input class="btn_" type="button" value="C" onclick="reset()">
             </div>
         </section>
 
